@@ -1,0 +1,9 @@
+export const SAMPLE_RATE = 44100;
+export const FFT_SIZE = 2048;
+export const HOP_SIZE = 512;
+export const NUM_BANDS = 64; // High resolution for better vowel clarity
+export const SPEECH_MAX_FREQ = 5000; 
+export const BIRD_DATA_START_FREQ = 5500; // Data layer sits just above the main bird whistle
+export const BIRD_DATA_STEP = 80; // Tighter spacing
+export const PITCH_MULTIPLIER = 8; // Lower multiplier (8x) gives a "thicker", more pleasant bird tone
+export const MAX_RECORDING_TIME_MS = 15000;

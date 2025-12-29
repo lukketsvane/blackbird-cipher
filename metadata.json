@@ -1,0 +1,7 @@
+{
+  "name": "Birdsong Codec",
+  "description": "A reversible audio codec that transforms human speech into bird-like vocalizations and back using spectral analysis and synthesis.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
